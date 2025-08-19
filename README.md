@@ -11,10 +11,15 @@ Primero se realiza una detección y segmentación del rostro de la persona, se r
     </div>
 <br>
 
-Los valores "umbral EAR" y segundos consecutivos recomendados son 0.22 y 0.7 segundos respectivamente. 
+Los valores "umbral EAR" y "segundos consecutivos" recomendados son 0.22 y 0.7 segundos respectivamente. 
 
-El primer valor se obtuvo al sumar el promedio de los valores EAR de un conjunto de videos de gente con los ojos cerrados. El segundo se obtuvo despues de realizar el analisis de intervalos de tiempo despues de hacer un barrido entre 0.0 segundos hasta 1.0 segundos en intervalor de 0.1 segundos. 
+El primer valor se obtuvo al sumar el promedio de los valores EAR de un conjunto de videos de gente con los ojos cerrados. 
+El segundo se obtuvo después de realizar el análisis de intervalos de tiempo en videos del sistema funcionando, haciendo un barrido entre 0.0 segundos hasta 1.0 segundos en intervalo de 0.1 segundos. La mayor parte del tiempo del proyecto fue dedicado a esta parte y se obtuvieron los siguientes valores.
 
-<div align="center">
-    <img width="776" height="299" alt="image" src="https://github.com/user-attachments/assets/369262b1-a723-4a4c-9db4-92ebb578d49e" />
-</div>
+<br>
+    <div align="center">
+        <img width="776" height="299" alt="image" src="https://github.com/user-attachments/assets/369262b1-a723-4a4c-9db4-92ebb578d49e" />
+    </div>
+<br>
+
+Por lo que lo recomendable es tener un intervalo entre 0.7 segundos hasta 1.0 segundos. 
