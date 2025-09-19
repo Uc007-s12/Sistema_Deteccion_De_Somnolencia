@@ -24,6 +24,3 @@ El segundo se obtuvo después de realizar el análisis de intervalos de tiempo e
 
 Por lo que lo recomendable es tener un intervalo entre 0.7 segundos hasta 1.0 segundos. 
 
-## Conclusión.
-Este sistema tiene como debilidad vestimenta que use el usuario como lentes oscuros, además de la hora del día, pues no realiza un buen trabajo para lugares obscuros, igualmente se deseó realizar la comparación usando un modelo reentrenado de YoLo para la detección de ojos abiertos y cerrados, pero debido a falta de tiempo no se logró terminar el entrenamiento.
-
